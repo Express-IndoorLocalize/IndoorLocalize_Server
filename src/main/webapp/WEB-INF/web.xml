@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ <servlet>
+        <servlet-name>IndoorMapHttpServlet</servlet-name>
+        <servlet-class>server.IndoorMapHttpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndoorMapHttpServlet</servlet-name>
+        <url-pattern>/servlet/IndoorMapHttpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LocateDataPickServlet</servlet-name>
+        <servlet-class>server.LocateDataPickServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LocateDataPickServlet</servlet-name>
+        <url-pattern>/servlet/LocateDataPickServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IndoorLocateHttpServlet</servlet-name>
+        <servlet-class>server.IndoorLocateHttpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndoorLocateHttpServlet</servlet-name>
+        <url-pattern>/servlet/IndoorLocateHttpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NavigationHttpServlet</servlet-name>
+        <servlet-class>server.NavigationHttpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NavigationHttpServlet</servlet-name>
+        <url-pattern>/servlet/NavigationHttpServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
