@@ -30,6 +30,8 @@ public class PositionAlgorithm {
      * @param databaseOperation        Database operation utility class object
      * @param wifiFingerBssidContainer Container for the RSSID sequence used for Wifi positioning
      */
+    
+    // TEST COMMENT 101
     public PositionAlgorithm(DatabaseOperation databaseOperation, WifiFingerBssidContainer wifiFingerBssidContainer) {
         this.databaseOperation = databaseOperation;
         this.wifiFingerBssidContainer = wifiFingerBssidContainer;
